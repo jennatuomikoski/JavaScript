@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+  margin: 40px;
+  font-family: Calibri;
+}
+
+h1 {
+  color: crimson;
+  font-family: 'DynaPuff', cursive;
+}
+
+th, tr, td {
+  border: 1px solid black;
+}
+
+table {
+  width: 15%;
+}
+
+th {
+  background-color: LightGray;
+}
+
+ul {
+  background-color: LightGray;
+  width: 13%;
+  border-radius: 10px;
+}
