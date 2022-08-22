@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+  margin: 30px;
+  background: AliceBlue;
+}
+img {
+  height: 200px;
+  margin-bottom: 20px;
+}
+p {
+  font-family: Calibri;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.oikea {
+  float: right;
+  padding: 15px;
+}
+
+.vasen {
+  float: left;
+  padding: 15px;
+}
+
+h2 {
+  clear: both;
+  font-family: 'Aboreto', cursive;
+  margin-left: 10px;
+}
+h1 {
+  font-family: 'Aboreto', cursive;
+}
+
+.tomHardy {
+  background: Gainsboro;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+.tomHardy p {
+  padding-bottom: 145px;
+}
+.sarahPaulson {
+  background: RosyBrown;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+
+.sarahPaulson p {
+  padding-bottom: 140px;
+}
+
+
+
+.idrisElba {
+  background: Gainsboro;
+  border-radius: 10px;
+  padding-top: 2px;
+}
+.idrisElba p {
+  padding-bottom: 130px;
+}
