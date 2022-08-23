@@ -1,0 +1,11 @@
+img {
+  height:100px;
+}
+
+#eka {
+  float:left;
+}
+#toka {
+  clear: both;
+  float: right;
+}

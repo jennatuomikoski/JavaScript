@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Cookie&family=Indie+Flower&family=Pacifico&family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+
+
+h1 {
+    color: green;
+}
+#numerot {
+    letter-spacing: -2px;
+}
+.kaksi {
+    color: red;
+    font-size: smaller;
+}
+
+.kolme {
+    color: blue;
+    font-size: medium;
+}
+.neljä {
+    color:aqua;
+    font-size:large;
+}
+.viisi {
+    color:blueviolet;
+    font-size: larger;
+}
+.kuusi {
+    color:chocolate;
+    font-size: x-large;
+}
+.seiska {
+    color: brown;
+    font-size:x-large;
+}
+.kasi {
+    color:crimson;
+    font-size: larger;
+}
+.ysi {
+    color:darkcyan;
+    font-size:medium;
+}
+.kymppi {
+    color:darkorchid;
+    font-size: smaller;
+}
+
+h2 {
+    font-family: "Comforter", cursive;
+}
+h3 {
+    font-family: 'Cookie', cursive;
+}
+#what {
+    font-family: 'Pacifico', cursive;
+}
+
+#why {
+    font-family: 'Indie Flower', cursive;
+}
+
+#where {
+    font-family: 'Shadows Into Light', cursive;
+}
+.various {
+    font-family: 'Patrick Hand', cursive;
+}

@@ -1,0 +1,37 @@
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+thead {
+  background-color: Gainsboro;
+  text-align: left;
+}
+thead td{
+  border: 1px solid gray;
+  font-weight: bold;
+  text-align: right;
+}
+td {
+  border: 1px solid gray;
+}
+tbody tr:nth-child(even) {
+  background-color: LightYellow;
+}
+tbody tr:nth-child(odd) {
+  background-color: Linen;
+}
+tbody td {
+  text-align: right;
+}
+tbody th {
+  text-align: left;
+
+}
+tfoot {
+  text-align: right;
+  background-color: Gainsboro;
+  font-weight: bold;
+}
+tfoot th {
+    border: 1px solid gray;
+}
