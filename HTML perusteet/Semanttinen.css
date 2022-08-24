@@ -1,0 +1,36 @@
+body {
+  width: 800px;
+  margin: auto;
+}
+header, footer {
+  background-color: #E1BFBF;
+  padding: 5px 0px 10px 10px;
+}
+header > h1 {
+  color: #714242;
+  margin: 15px;
+  margin-top: 40px;
+}
+nav {
+  width: 200px;
+  margin:auto;
+  background-color: #FFEDED;
+  padding: 5px;
+  text-align: center;
+}
+section {
+  background-color: #9C6868;
+  width: 618px;
+
+}
+aside {
+  background-color: #714242;
+  float: right;
+  height: 478px;
+}
+aside > p {
+  padding: 10px;
+}
+aside, section {
+  padding: 5px 0px 10px 10px;
+}
