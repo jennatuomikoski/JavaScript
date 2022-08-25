@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Quicksand&display=swap');
+
 body {
-  width: 1000px;
+  min-height: 100vh;
   margin: 50px;
   background-color: #FFCDB2;
 }
@@ -7,24 +9,31 @@ body {
 header, footer {
   background-color: #FFB4A2;
   padding: 5px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 header > h1 {
   color: #6D6875;
   padding-left: 20px;
+  font-family: 'Handlee', cursive;
 }
 nav {
   background-color: #E5989B;
-  width: 300px;
-  margin: auto;
+  width: 400px;
+  margin-left: 293px;
   text-align: center;
   padding: 5px;
   border: solid 1px #6D6875;
   margin-bottom: -5px;
+  font-family: 'Quicksand', sans-serif;
+}
+nav > a {
+  padding: 10px;
 }
 section {
   background-color: #E5989B;
-  width: 650px;
+  width: 700px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 section > p {
@@ -34,10 +43,27 @@ section > p {
 aside {
   background-color: #B5838D;
   float: right;
+  font-family: 'Quicksand', sans-serif;
+  width: 300px;
 }
 aside > p {
-  padding: 10px;
+  padding: 15px;
 }
+
 aside, section {
   padding: 5px 0px 10px 10px;
+}
+img {
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.lahde {
+  text-align: right;
+  margin-right: 5px;
+}
+figcaption {
+  text-align: center;
 }
