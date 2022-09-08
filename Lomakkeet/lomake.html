@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lomake.css">
+    <title></title>
+  </head>
+  <body>
+
+    <form class="" action="index.html" method="post">
+
+
+        <table>
+            <tr>
+              <td colspan="2"><h2>Lomake</h2></td>
+            </tr>
+            <tr>
+              <td><label for="etunimi">Etunimi:</label></td>
+              <td><input type="text" id="enimi"></td>
+            </tr>
+            <tr>
+              <td><label for="sukunimi">Sukunimi:</label></td>
+              <td><input type="text" id="snimi"></td>
+            </tr>
+            <tr>
+              <td><label for="Käyttäjänimi">Käyttäjätunnus:</label></td>
+              <td><input type="text" id="ktunnus"></td>
+            </tr>
+            <tr>
+              <td><label for="Salasana">Salasana:</label></td>
+              <td><input type="password" id="ssana"></td>
+            </tr>
+            <tr>
+              <td>Sukupuoli:</td>
+              <td><input type="radio" id="mies" name="sukupuoli" value="mies">
+                <label for="mies">Mies</label></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="radio" id="nainen" name="sukupuoli" value="nainen">
+                  <label for="nainen">Nainen</label></td>
+              </tr>
+              <tr>
+                <td>Palaute</td>
+                <td><textarea name="palaute" id="palaute" rows="5" cols="20"></textarea> </td>
+              </tr>
+              <tr>
+                <td>Valitse taitotasosi</td>
+                <td><select name="taito" id="taito">
+                  <option value="">Valitse yksi</option>
+                  <option value="0">0 - Ei mitään</option>
+                  <option value="1">1 - Aloittelija</option>
+                  <option value="2">2 - Aika hyvä</option>
+                  <option value="3">3 - Hyvä</option>
+                  <option value="4">4 - Taitavin!</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td>Valitse osaamisalueet</td>
+                <td><input type="checkbox" name="PHP" value="PHP" id="PHP">
+                    <label for="PHP">PHP</label> <br>
+                    <input type="checkbox" name="HTML" value="HTML" id="HTML">
+                    <label for="HTML">HTML</label> <br>
+                    <input type="checkbox" name="CSS" value="CSS" id="CSS">
+                    <label for="CSS">CSS</label>
+                </td>
+              </tr>
+              <tr>
+                <td><input type="submit" name="" value="Lähetä"></td>
+                <td><input type="submit" name="" value="Tyhjennä"></td>
+              </tr>
+      </table>
+    </form>
+  </body>
+</html>

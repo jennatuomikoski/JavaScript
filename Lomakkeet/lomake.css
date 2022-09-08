@@ -1,0 +1,18 @@
+body {
+  margin: auto;
+  height: 80%;
+}
+form {
+  width: 20%;
+  background-color: #DCDCDC;
+  margin:auto;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+h2 {
+  text-align: center;
+}
+input[type="text"], input[type="password"] {
+  border-radius: 20px;
+  background-color: #A9A9A9;
+}
