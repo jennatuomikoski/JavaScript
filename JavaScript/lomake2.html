@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="lomake2.css">
+    <script type="text/javascript" src="lomake2.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <form id="formi" action="index.html" method="post">
+      <fieldset>
+        <table>
+          <tr>
+            <td><label for="etunimi">Etunimi:</label></td>
+            <td><input type="text" id="enimi" value=""></td>
+          </tr>
+          <tr>
+            <td><label for="sukunimi">Sukunimi:</label></td>
+            <td><input type="text" id="snimi" value=""></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <label for="kouluun">Tulin tänään kouluun:</label> <br>
+          <input type="radio" name="kouluun" value="jalan" checked>Jalan <br>
+          <input type="radio" name="kouluun" value="autolla">Autolla <br>
+          <input type="radio" name="kouluun" value="junalla">Junalla <br>
+          <input type="radio" name="kouluun" value="bussilla">Bussilla <br>
+          <input type="radio" name="kouluun" value="mopolla">Mopolla <br>
+          <input type="radio" name="kouluun" value="uiden">Uiden
+      </fieldset>
+      <fieldset>
+        <label for="lempi">Lempi tuntisi koulussa ?</label>
+          <br>
+          <br>
+        <select name="lempi" id="lempi">
+          <option value="valitse">Valitse alta oikea vaihtoehto</option>
+          <option value="tietotekniikka">Tietotekniikka</option>
+          <option value="matematiikka">Matematiikka</option>
+          <option value="liikunta">Liikunta</option>
+          <option value="valitunti">Välitunti</option>
+        </select>
+          <br>
+          <br>
+        <input type="button" name="" value="Läheta" onclick="tarkista()">
+      </fieldset>
+      <p id="laheta"></p>
+    </form>
+  </body>
+</html>

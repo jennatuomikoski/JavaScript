@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="viikko2.css">
+    <script type="text/javascript" src="viikko2.js">
+
+    </script>
+    <title></title>
+  </head>
+  <body>
+    <article class="tehta" id="t1">
+      <form class="t1" action="index.html" method="post">
+        <h2>Tehtävä 1</h2>
+        <p>Laitetaan numerot järjestykseen!</p>
+            <p>Anna 1. numero: <input type="text" id="eka" value=""></p>
+            <p>Anna 2. numero: <input type="text" id="toka" value=""></p>
+            <p>Anna 3. numero: <input type="text" id="kolmas" value=""></p>
+          <br>
+        <button type="button" name="button" onclick="tehtava1()">Järjestä luvut</button>
+        <p id="vastaus1"></p>
+      </form>
+    </article>
+    <article class="tehta" id="t2">
+      <form class="t2" action="index.html" method="post">
+        <h2>Tehtävä 2</h2>
+          <p>Kirjoita 5 lukua, ohjelma etsii suurimman!</p>
+          <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+          <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+          <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+          <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+          <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+        <button type="button" name="button" onclick="tehtava2()">Suurin luku</button>
+          <p id="vastaus2"></p>
+      </form>
+    </article>
+    <article class="tehta" id="t3">
+      <form class="" action="index.html" method="post">
+        <h2>Tehtävä 3</h2>
+          <p>Onko lukusi parillinen vai pariton?</p>
+          <p>Anna luku: <input type="text" id="pari" value=""></p>
+        <button type="button" name="button" onclick="tehtava3()">Tarkista!</button>
+          <p id="vastaus3"></p>
+      </form>
+    </article>
+    <article class="tehta" id="t4">
+      <form class="" action="index.html" method="post">
+        <h2>Tehtävä 4</h2>
+          <p>Mitä ajoneuvoa saat ajaa?</p>
+          <p>Anna ikäsi: <input type="text" id="ika" value=""></p>
+          <button type="button" name="button" onclick="tehtava4()">Näytä ajoneuvo</button>
+          <p id="vastaus4"></p>
+      </form>
+    </article>
+    <article class="tehta" id="t5">
+      <form class="" action="index.html" method="post">
+        <h2>Tehtävä 5</h2>
+          <p>Käännä teksti "Hei maailma" haluamallesi kielelle</p>
+          <select class="valitse" id="valitse">
+              <option value="englanti">Englanti</option>
+              <option value="ruotsi">Ruotsi</option>
+              <option value="espanja">Espanja</option>
+          </select>
+        <button type="button" name="button" onclick="tehtava5()">Käännä</button>
+        <p id="vastaus5"></p>
+      </form>
+    </article>
+  </body>
+</html>
